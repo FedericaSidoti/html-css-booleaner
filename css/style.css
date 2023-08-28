@@ -4,16 +4,39 @@
     box-sizing: border-box;
 }
 
-header {
+.header {
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
     background-size: contain;
     height: 50px; 
 }
 
-header img {
+.header img {
     height: 50%;
     position: relative;
     bottom: -20px;
     margin: 0 0 0 5px; 
+}
+
+.header-article {
+    padding: 5px 2px 5px 2px; 
+}
+
+.info-author {
+    color: gray;
+    font-size: 18px;
+}
+
+time {
+    color: gray;
+    font-size: 12px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: left;
+}
+
+article header strong {
+color: #4ea0ff;
 }
