@@ -99,19 +99,20 @@ table{
 /*Stile footer*/
 
 #img-purple {
-    background-image: url(../img/graph.jpg);
-    width: 200px;
-    height: 130px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-
-}
-
-#img-red {
     background-image: url(../img/monitor.jpg);
     width: 200px;
     height: 130px;
     margin-bottom: 10px;
+    margin-top: 10px;
+    background-size: cover;
+}
+
+#img-red {
+    background-image: url(../img/graph.jpg);
+    width: 200px;
+    height: 130px;
+    margin-bottom: 10px;
+    background-size: cover;
 }
 
 .caption-white{
