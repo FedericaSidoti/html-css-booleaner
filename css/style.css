@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+main{
+    margin: 0 15px 0 15px;
+}
 /* Header della pagina*/
 .header {
     background-color: #4ea0ff;
@@ -45,6 +48,43 @@ color: #4ea0ff;
 
 /*Stile della Figure*/
 
+figure {
+    margin-bottom: 10px; 
+}
+
 .caption {
     font-size: 12px;
+}
+
+/*Stile dell'articolo*/
+section {
+    margin-bottom: 10px;
+}
+
+ul{
+    margin: 0px 10px 0px 10px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+/*Stile tabella*/
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 20px 0px 20px 0px;
+}
+
+.col-c {
+    width: 50%;
+}
+
+.h-row{
+    background-color: #20a9e5;
+}
+
+.blue-row {
+    background-color: #b1e5f2;
 }
