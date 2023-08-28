@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Header della pagina*/
 .header {
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
@@ -18,6 +19,7 @@
     margin: 0 0 0 5px; 
 }
 
+/* header dell'articolo*/
 .header-article {
     padding: 5px 2px 5px 2px; 
 }
@@ -39,4 +41,10 @@ h1{
 
 article header strong {
 color: #4ea0ff;
+}
+
+/*Stile della Figure*/
+
+.caption {
+    font-size: 12px;
 }
