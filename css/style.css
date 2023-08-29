@@ -11,15 +11,12 @@ main{
 .header {
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
-    background-size: contain;
-    height: 50px; 
+    background-size: 200px;
 }
 
 .header img {
-    height: 50%;
-    position: relative;
-    bottom: -20px;
-    margin: 0 0 0 5px; 
+    height: 70px;
+    padding: 25px 0px 10px 5px;
 }
 
 /* header dell'articolo*/
